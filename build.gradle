@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
+    implementation 'org.erlang.otp:jinterface:1.6.1'
 }
 
 jar {
