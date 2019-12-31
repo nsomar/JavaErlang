@@ -114,7 +114,6 @@ public class MyInterface extends JFrame {
 
         button.addActionListener(new ActionListener() {
 
-            @Override
             public void actionPerformed(ActionEvent e) {
                 myOtpMbox.send(lastPid, new OtpErlangString("Hello from java"));
             }
